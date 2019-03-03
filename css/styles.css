@@ -9,14 +9,33 @@
 /* Global styles
 -------------------------*/
 body {
-  background: lightblue;
+
+}
+a {
+  color: #05668D;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /* Header and Footer
 -------------------------*/
+header, footer {
+  background: #02C39A;
+  color: #05668D;
+}
+header h1, header h2 {
+  color: #F0F3BD;
+}
 
 /* Work Experience
 -------------------------*/
+.work {
+  background: #02C39A;
+}
 
 /* Education
 -------------------------*/
+.education {
+  background: #F0F3BD;
+}
