@@ -33,6 +33,7 @@ a:hover {
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
+  overflow: auto;
 }
 /* Header and Footer
 -------------------------*/
@@ -40,10 +41,26 @@ header, footer {
   background: #02C39A;
   color: #05668D;
 }
+/* header */
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
 header h1, header h2 {
   color: #F0F3BD;
+  margin: 0;
 }
-
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  background: white;
+  padding: 10px;
+  display: inline-block;
+}
 /* Work Experience
 -------------------------*/
 .work {
