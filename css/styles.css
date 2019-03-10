@@ -8,6 +8,13 @@
 
 /* Global styles
 -------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *.:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
