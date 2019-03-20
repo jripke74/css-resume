@@ -143,3 +143,12 @@ p + h3 {
     float: left;
   }
 }
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
